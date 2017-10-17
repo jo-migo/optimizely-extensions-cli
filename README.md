@@ -34,8 +34,8 @@ Disable all Extensions in a project containing a match to a ceratin regex string
 
 To authenticate with the Optimizely REST API, the **authorize** command configures a file at $HOME/.optimizely-config.cfg that can hold many project ID and personal access token pairs, which can be
 removed with the **unauthorize** command. If a project_id argument is passed that does not appear in the auth config, a prompt will
-be used to get a personal access token. To generate a personal access token, use this reference_.
-.. _reference: https://help.optimizely.com/Integrate_Other_Platforms/Generate_a_personal_access_token_in_Optimizely_X_Web
+be used to get a personal access token. To generate a personal access token, use the [API Reference](https://help.optimizely.com/Integrate_Other_Platforms/Generate_a_personal_access_token_in_Optimizely_X_Web).
+
 This will allow you to access project 09138432 until you remove the token from memory later with **unauthorize**::
 
     $ opt-extend authorize 09138432 2:976b1f28hGCUcc1G5U0l9pasfjdsiflkajsdfa9aufd
