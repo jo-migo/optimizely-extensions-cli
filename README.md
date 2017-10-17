@@ -1,8 +1,8 @@
 # optimizely-extensions-cli
 CLI for managing Optimizely Extensions
 
-**Opt-Extend** is a CLI to simplift interacting with Optimizely Extensions programmatically.
-More documentation to come.
+**Opt-Extend** is a CLI to simplify interacting with Optimizely Extensions programmatically.
+More documentation to come!
 
 
 Usage Examples
