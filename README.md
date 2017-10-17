@@ -13,20 +13,15 @@ Authenticating with Personal Access Tokens
 To authenticate with the Optimizely REST API, the **authorize** command configures a file at $HOME/.optimizely-config.cfg that can hold multiple project ID and personal access token pairs, which can be
 removed with the **unauthorize** command. If a project_id that does not appear in the auth config is passed as a command argument, a prompt will
 be used to get a personal access token at the time of execution.
-
 To generate a personal access token, use this
 .. _reference: https://help.optimizely.com/Integrate_Other_Platforms/Generate_a_personal_access_token_in_Optimizely_X_Web
-
-
 To access project 1322423 until you remove the token from memory later with **unauthorize**::
 
     $ opt-extend authorize 1322423 <personal_access_token>
     /   Added authorization for project 1322423
 
-
 Now, future commands that reference project 1322423 will be authorized without requiring a prompt for your personal access token (as long as the token is not revoked and
 has permissions for the actions you are performing).
-
 
 To unauthorize a specific project::
 
@@ -37,8 +32,6 @@ To unauthorize all projects::
 
     $ opt-extend unauthorize --all
     /   Removed all authorization tokens from configuration.
-
-
 
 Initializing a directory to contain a new Extension (in a format that can be directly ingested by the upload command when ready)::
 
